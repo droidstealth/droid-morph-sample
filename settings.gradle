@@ -1,1 +1,2 @@
-include ':app', ':libraries:droid-morph:droidmorphing-lib'
+include ':DroidMorphSample', ':droidmorphing-lib'
+project(':droidmorphing-lib').projectDir = new File('libraries/droid-morph/droidmorphing-lib')

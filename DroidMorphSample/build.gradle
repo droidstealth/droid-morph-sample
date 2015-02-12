@@ -20,6 +20,6 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:21.0.3'
-    compile project(':libraries:droid-morph:droidmorphing-lib')
+    compile project(':droidmorphing-lib')
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
